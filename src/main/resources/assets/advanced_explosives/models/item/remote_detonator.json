@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "advanced_explosives:item/remote_detonator_ready"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "armed": 1.0
+      },
+      "model": "advanced_explosives:item/remote_detonator_armed"
+    }
+  ]
+}

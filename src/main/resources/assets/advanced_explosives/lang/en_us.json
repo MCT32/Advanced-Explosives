@@ -1,0 +1,6 @@
+{
+  "block.advanced_explosives.instant_tnt": "Instant TNT",
+  "block.advanced_explosives.remote_tnt": "Remote TNT",
+  "item.advanced_explosives.remote_detonator": "Remote Detonator",
+  "item.advanced_explosives.remote_detonator.setting": "Set to %d %d %d"
+}

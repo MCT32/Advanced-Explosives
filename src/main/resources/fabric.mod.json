@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "advanced_explosives",
+  "version": "${version}",
+  "name": "Advanced Explosives",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/MCT32/Advanced-Explosives"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/advanced_explosives/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.mct32.advanced_explosives.client.AdvancedExplosivesClient"
+    ],
+    "main": [
+      "com.mct32.advanced_explosives.AdvancedExplosives"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
