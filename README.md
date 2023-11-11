@@ -26,3 +26,10 @@ Detonates [Remote TNT](#remote-tnt).
 
 ![image](https://github.com/MCT32/Advanced-Explosives/assets/32090502/a74d57a9-ce6c-4868-b571-c0f4f7548c8a)
 
+### Falling TNT
+
+![falling_tnt](https://github.com/MCT32/Advanced-Explosives/assets/32090502/01acedd4-8c72-4c1f-8598-4a120eab75f3)
+
+Detonates after falling at least 4 blocks like sand.
+
+![image](https://github.com/MCT32/Advanced-Explosives/assets/32090502/eb66be27-f3ae-48ee-a5a8-66dacec56eb4)
