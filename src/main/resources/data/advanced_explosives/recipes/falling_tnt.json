@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CTC",
+    "CCC"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "C": {
+      "item": "minecraft:sand"
+    }
+  },
+  "result": {
+    "item": "advanced_explosives:falling_tnt"
+  }
+}
