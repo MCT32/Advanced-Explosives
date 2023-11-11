@@ -2,6 +2,7 @@ package com.mct32.advanced_explosives.item;
 
 import com.mct32.advanced_explosives.block.RemoteTntBlock;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -67,7 +68,7 @@ public class RemoteDetonator extends Item {
         if (blockState.isOf(REMOTE_TNT)) {
             RemoteTntBlock block = (RemoteTntBlock) blockState.getBlock();
             block.primeTnt(world, pos, user);
-            world.removeBlock(pos, false);
+            world.setBlockState(pos, Blocks.AIR.getDefaultState(), 11);
         }
 
         nbt.remove("position");

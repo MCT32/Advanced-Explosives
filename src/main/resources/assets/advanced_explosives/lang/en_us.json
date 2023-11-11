@@ -1,6 +1,9 @@
 {
   "block.advanced_explosives.instant_tnt": "Instant TNT",
   "block.advanced_explosives.remote_tnt": "Remote TNT",
+  "block.advanced_explosives.falling_tnt": "Falling TNT",
   "item.advanced_explosives.remote_detonator": "Remote Detonator",
-  "item.advanced_explosives.remote_detonator.setting": "Set to %d %d %d"
+  "item.advanced_explosives.remote_detonator.setting": "Set to %d %d %d",
+
+  "itemGroup.advanced_explosives.advanced_explosives": "Advanced Explosives"
 }

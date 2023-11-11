@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "advanced_explosives:block/falling_tnt"
+    }
+  }
+}
